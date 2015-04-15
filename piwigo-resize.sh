@@ -72,12 +72,12 @@ fi
 #        echo "[$(date +%Y-%m-%d\ %H:%M:%S)] Génère $filename-xl.$extension" >> $outfile
 #	convert -quality 96 -auto-orient -thumbnail 1224\>x918\> $PIWIGO/$repertoire/$REP/$filename.$extension $PIWIGO/_data/i/$repertoire/$REP/$filename-xl.$extension
 #fi
-#if [ -f $PIWIGO/_data/i/$repertoire/$REP/$filename-xx.$extension ]; then
-#        echo "[$(date +%Y-%m-%d\ %H:%M:%S)] $filename-xx.$extension existe déjà, passe" >> $outfile
-#else
-#        echo "[$(date +%Y-%m-%d\ %H:%M:%S)] Génère $filename-xx.$extension" >> $outfile
-#	convert -quality 96 -auto-orient -thumbnail 1656\>x1242\> $PIWIGO/$repertoire/$REP/$filename.$extension $PIWIGO/_data/i/$repertoire/$REP/$filename-xx.$extension
-#fi
+if [ -f $PIWIGO/_data/i/$repertoire/$REP/$filename-xx.$extension ]; then
+        echo "[$(date +%Y-%m-%d\ %H:%M:%S)] $filename-xx.$extension existe déjà, passe" >> $outfile
+else
+        echo "[$(date +%Y-%m-%d\ %H:%M:%S)] Génère $filename-xx.$extension" >> $outfile
+	convert -quality 96 -auto-orient -thumbnail 1656\>x1242\> $PIWIGO/$repertoire/$REP/$filename.$extension $PIWIGO/_data/i/$repertoire/$REP/$filename-xx.$extension
+fi
 #if [ -f $PIWIGO/_data/i/$repertoire/$REP/$filename-cu_s9999x200.$extension ]; then
 #        echo "[$(date +%Y-%m-%d\ %H:%M:%S)] $filename-cu_s9999x200.$extension existe déjà, passe" >> $outfile
 #else
