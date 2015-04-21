@@ -84,6 +84,7 @@ fi
 #        echo "[$(date +%Y-%m-%d\ %H:%M:%S)] Génère $filename-cu_s9999x200.$extension" >> $outfile
 #	convert -quality 90 -auto-orient -thumbnail 9999\>x200\> $PIWIGO/$repertoire/$REP/$filename.$extension $PIWIGO/_data/i/$repertoire/$REP/$filename-cu_s9999x200.$extension
 #fi
+chmod 777 $REP >> $outfile
 echo "[$(date +%Y-%m-%d\ %H:%M:%S)] Fin de traitement de $REP/$filename.$extension" >> $outfile
 ;;
 *)
