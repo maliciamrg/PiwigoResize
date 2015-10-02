@@ -1,0 +1,171 @@
+$VAR1 = bless( {
+                 '_rc' => '401',
+                 '_request' => bless( {
+                                        '_content' => 'privacy_level=0&add_to_caddie=0&simulate=0&submit=1&display_info=1&sync_meta=1&subcats-included=1&sync=files',
+                                        '_method' => 'POST',
+                                        '_uri_canonical' => bless( do{\(my $o = 'http://home.daisy-street.fr/galerie//admin.php?page=site_update&site=1')}, 'URI::http' ),
+                                        '_uri' => $VAR1->{'_request'}{'_uri_canonical'},
+                                        '_headers' => bless( {
+                                                               'authorization' => 'Basic YWRtaW46cm94YW5uZTAx',
+                                                               'content-length' => 108,
+                                                               'user-agent' => 'Mozilla/remote_sync.pl',
+                                                               'content-type' => 'application/x-www-form-urlencoded'
+                                                             }, 'HTTP::Headers' )
+                                      }, 'HTTP::Request' ),
+                 '_protocol' => 'HTTP/1.1',
+                 '_msg' => 'Authorization required',
+                 '_content' => '<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Piwigo (aka PWG), see piwigo.org">
+
+ 
+<meta name="description" content="redirection">
+
+<title>redirection | DaisyStreet Home Piwigo</title>
+<link rel="shortcut icon" type="image/x-icon" href="themes/default/icon/favicon.ico">
+
+<link rel="start" title="Accueil" href="/galerie/" >
+<link rel="search" title="Recherche" href="search.php" >
+
+
+
+<meta http-equiv="refresh" content="0;url=identification.php?redirect=%252Fgalerie%252F%252Fadmin.php%253Fpage%253Dsite_update%2526site%253D1">
+       
+	<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" href="themes/default/fix-ie5-ie6.css">
+	<![endif]-->
+	<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="themes/default/fix-ie7.css">
+	<![endif]-->
+	
+       
+
+	<!--[if lt IE 8]>
+		<link rel="stylesheet" type="text/css" href="themes/elegant/fix-ie7.css">
+	<![endif]-->
+    
+
+<!-- BEGIN get_combined -->
+<link rel="stylesheet" type="text/css" href="_data/combined/9ezz2x.css">
+
+
+<!-- END get_combined -->
+
+<!--[if lt IE 7]>
+<script type="text/javascript" src="themes/default/js/pngfix.js"></script>
+<![endif]-->
+
+</head>
+
+<body id="">
+
+<div id="the_page">
+
+
+<div id="theHeader"><h1>DaisyStreet Home Piwigo</h1>
+
+<p>Bienvenue sur la galerie HomeDaisyStreet</p></div>
+
+    
+
+
+
+<ul class="multiview">
+  <li><label>Voir en tant que</label>
+    <select class="switcher" data-type="view_as"></select>
+  </li>
+  <li><label>Thème</label>
+    <select class="switcher" data-type="theme"></select>
+  </li>
+  <li><label>Langue</label>
+    <select class="switcher" data-type="lang"></select>
+  </li>
+  <li><a class="icon-check-empty" href="./admin.php?ato_show_queries=1">Afficher les requêtes SQL</a></li>
+  <li><a class="icon-check-empty" href="./admin.php?ato_debug_l10n=1">Debuguer les langues</a></li>
+  <li><a class="icon-check-empty" href="./admin.php?ato_debug_template=1">Debuguer le template</a></li>
+  <li><a class="icon-check" href="./admin.php?ato_template_combine_files=0">Combiner JS&amp;CSS</a></li>
+  <li><a class="icon-check" href="./admin.php?ato_no_history=1">Sauvegarder la viste dans l\'historique</a></li>
+  <li><a class="icon-ato-null" href="./admin.php?ato_purge_template=1">Purger les templates compilés</a></li>
+</ul><div style="margin:2em;text-align:center;font-size:larger">
+	Redirection...
+</div>
+
+<p style="margin:2em;text-align:center">
+	<a href="identification.php?redirect=%252Fgalerie%252F%252Fadmin.php%253Fpage%253Dsite_update%2526site%253D1">
+		Cliquez ici si votre navigateur ne vous redirige pas.
+	</a>
+</p>
+<div id="copyright">
+
+
+  Propulsé par	<a href="http://fr.piwigo.org" class="Piwigo">Piwigo</a>
+  
+</div>
+
+</div>
+
+<!-- BEGIN get_combined -->
+<script type="text/javascript" src="_data/combined/qh5g2v.js"></script>
+<script type="text/javascript">//<![CDATA[
+
+var p_main_menu = "", p_pict_descr = "", p_pict_comment = "";
+AdminTools.urlWS = \'ws.php?format=json&method=\';
+AdminTools.urlSelf = \'./admin.php?\';
+
+AdminTools.multiView = {
+  view_as: 0,
+  theme: \'elegant\',
+  lang: \'\'
+};
+
+  AdminTools.init();
+//]]></script>
+<!-- END get_combined -->
+
+</body>
+</html>',
+                 '_headers' => bless( {
+                                        'x-meta-generator' => 'Piwigo (aka PWG), see piwigo.org',
+                                        'client-date' => 'Wed, 27 May 2015 01:02:44 GMT',
+                                        'refresh' => '0;url=identification.php?redirect=%252Fgalerie%252F%252Fadmin.php%253Fpage%253Dsite_update%2526site%253D1',
+                                        'cache-control' => 'no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
+                                        'set-cookie' => 'pwg_id=s0rfqqer60vdabn41v4espei16; path=/galerie/; HttpOnly',
+                                        'client-peer' => '192.168.1.100:80',
+                                        'title' => 'redirection | DaisyStreet Home Piwigo',
+                                        '::std_case' => {
+                                                          'title' => 'Title',
+                                                          'client-peer' => 'Client-Peer',
+                                                          'x-meta-description' => 'X-Meta-Description',
+                                                          'link' => 'Link',
+                                                          'x-meta-charset' => 'X-Meta-Charset',
+                                                          'client-response-num' => 'Client-Response-Num',
+                                                          'client-warning' => 'Client-Warning',
+                                                          'x-meta-generator' => 'X-Meta-Generator',
+                                                          'set-cookie2' => 'Set-Cookie2',
+                                                          'client-date' => 'Client-Date',
+                                                          'x-powered-by' => 'X-Powered-By',
+                                                          'refresh' => 'Refresh',
+                                                          'set-cookie' => 'Set-Cookie'
+                                                        },
+                                        'x-meta-description' => 'redirection',
+                                        'client-response-num' => 1,
+                                        'client-warning' => 'Missing Authenticate header',
+                                        'connection' => 'close',
+                                        'date' => 'Wed, 27 May 2015 01:01:51 GMT',
+                                        'x-powered-by' => 'PHP/5.5.9-1ubuntu4.9',
+                                        'pragma' => 'no-cache',
+                                        'server' => 'Apache/2.4.7 (Ubuntu)',
+                                        'content-length' => '3169',
+                                        'content-type' => 'text/html; charset=utf-8',
+                                        'link' => [
+                                                    '<themes/default/icon/favicon.ico>; rel="shortcut icon"; type="image/x-icon"',
+                                                    '</galerie/>; rel="start"; title="Accueil"',
+                                                    '<search.php>; rel="search"; title="Recherche"',
+                                                    '<_data/combined/9ezz2x.css>; rel="stylesheet"; type="text/css"'
+                                                  ],
+                                        'expires' => 'Thu, 19 Nov 1981 08:52:00 GMT',
+                                        'x-meta-charset' => 'utf-8'
+                                      }, 'HTTP::Headers' )
+               }, 'HTTP::Response' );
